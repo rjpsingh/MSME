@@ -1,0 +1,128 @@
+
+    float: left;
+    position: static;
+     margin-right: 15px;
+  }
+
+.morebtn{
+       position: relative;
+    float: right;
+    bottom: 22px;
+    right: 40px;
+    display: inline-block;
+    clear: both;
+}
+*/
+
+.votebutton{
+    border-radius: 15px; 
+    background-color: none;
+    
+}
+
+.votebutton:disabled{
+  text-decoration: overline;  
+}
+
+.cmnt{
+    border: 1px solid black; 
+    border-radius:5px;
+    padding: 0 15px 15px 15px;
+    background-color: whitesmoke; 
+    color:black;
+    
+ }
+
+.commentbox{
+     background-color: wheat;
+     border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 5px; 
+    opacity: inherit;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+.seecmnt{
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
+
+.morebtn{
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+    padding: 2px;
+    border: 1px solid purple;
+   
+}
+
+.addcomment{
+  margin-left: 10px;
+  border-radius: 10px;
+    
+}
+
+
+
+.likeButton , .dislikebutton {
+    padding: 5px;
+    margin-right: 25px;
+    border-radius: 25px;
+    background-color: snow;
+}
+
+.likeButton:disabled{
+    background-color: limegreen;
+}
+
+
+.dislikebutton:disabled{
+    background-color: red;
+}
+
+.hidebtn{
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid purple;
+}
+
+.hidecmnts{
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
+
+#workdashboard4{
+    margin-top: 50px;
+}
+/************* mobile screens *************/
+
+
+
+@media screen & (max-width:930px){
+    nav .brand-logo{
+        text-align: center;
+    }
+}
+
+/*
+@media screen & (min-width:995px){
+    
+    .row{
+        width: 100%;
+    }
+    
+    .col s2 m4{
+        width: 16.66%;
+    }
+    
+    .col s8 m4{
+        width: 66.66%;
+    }
+    
+}
+*/
